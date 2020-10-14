@@ -59,7 +59,7 @@ nav li{
   font-size: 30px;
   list-style: none;
 }
-a {
+ul a {
   color: white;
   text-decoration: none;
 }
@@ -97,13 +97,39 @@ main .left_column {
   font-size: 30px;
   color: orange;
 }
+/* /LEFT COLUNM */
 
+/* CENTRAL COLUMN */
 main .central_column {
   width: 56%;
   float: left;
   background-color: white;
   margin: 0 2%;
+  padding: 10px;
 }
+.central_column :first-child {
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-family: serif;
+}
+p, .fa-calendar, .fa-comments {
+  display: inline-block;
+  color: grey;
+}
+.comments, .writer {
+  text-decoration: none;
+  color: green;
+  font-size: 15px;
+}
+
+div.photo > img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  padding-top: 20px;
+}
+
+
 main .right_column {
   width: 20%;
   float: right;
