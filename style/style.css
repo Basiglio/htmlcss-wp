@@ -39,14 +39,22 @@ body {
 }
 
 /* navigator */
-.nav {
+
+.header_bot,
+.overlay {
   width: 100%;
   background-color: grey;
   margin-bottom: 10px;
   text-align: center;
   line-height: 50px;
 }
-.nav li{
+.overlay{
+  background-color: red;
+  height: 100%;
+
+}
+
+nav li{
   display: inline-block;
   padding-right: 50px;
   font-size: 30px;
@@ -69,8 +77,12 @@ a {
 /* layout principale */
 main .left_column {
   width: 20%;
+  padding: 10px;
   background-color: white;
   float: left;
+}
+.left_column h3, li {
+  padding-bottom: 10px;
 }
 main .central_column {
   width: 56%;
