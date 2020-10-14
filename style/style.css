@@ -43,15 +43,13 @@ body {
 .header_bot,
 .overlay {
   width: 100%;
-  background-color: grey;
+  background-color: green;
   margin-bottom: 10px;
   text-align: center;
   line-height: 50px;
 }
 .overlay{
-  background-color: red;
   height: 100%;
-
 }
 nav li{
   display: inline-block;
@@ -60,8 +58,9 @@ nav li{
   list-style: none;
 }
 ul a {
-  color: white;
+  color: black;
   text-decoration: none;
+  font-variant: small-caps;
 }
 /* /home + navigator*/
 
@@ -128,26 +127,42 @@ div.photo > img {
   object-fit: cover;
   padding-top: 20px;
 }
+/* /CENTRAL COLUNM */
 
-
+/* RIGHT COLUMN */
 main .right_column {
   width: 20%;
   float: right;
 }
-
 .top, .mid, .bot {
   width: 100%;
   background-color: white;
   margin-bottom: 50px;
 }
-/* /layout principale */
+
+.top {
+  padding: 10px;
+  border-radius: 5%;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+#search{
+  background: green;
+  border: 2px solid black;
+}
+#submit {
+  background-color: green;
+  border: 2px solid black;
+  font-size: 15px;
+}
+
 
 /* crediti */
 footer {
   width: 100%;
   height: 100px;
   margin-top: 10px;
-  background: lightblue;
+  background: green;
   position: relative;
 }
 
