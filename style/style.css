@@ -53,7 +53,6 @@ body {
   height: 100%;
 
 }
-
 nav li{
   display: inline-block;
   padding-right: 50px;
@@ -75,15 +74,30 @@ a {
 /* /impostazioni di clearfix */
 
 /* layout principale */
+/* LEFT COLUMN */
 main .left_column {
   width: 20%;
   padding: 10px;
   background-color: white;
   float: left;
+  position: relative;
+}
+.left_column > h3{
+  color: green;
+  font-size: 30px;
+  display: inline-block;
 }
 .left_column h3, li {
   padding-bottom: 10px;
 }
+.left_column > i {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  font-size: 30px;
+  color: orange;
+}
+
 main .central_column {
   width: 56%;
   float: left;
